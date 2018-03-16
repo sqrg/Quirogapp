@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using Android.Content;
+using MvvmCross.Forms.Platform.Android.Core;
 using MvvmCross.ViewModels;
 using Quirogapp.UI;
 using Xamarin.Forms;

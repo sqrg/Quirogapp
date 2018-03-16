@@ -2,6 +2,7 @@
 using Android.Content.PM;
 using Android.OS;
 using MvvmCross;
+using MvvmCross.Forms.Platform.Android.Views;
 using MvvmCross.ViewModels;
 using Quirogapp.Core.ViewModels;
 
