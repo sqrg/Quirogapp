@@ -6,14 +6,25 @@
 
   <ItemGroup>
     <PackageReference Include="MvvmCross" Version="6.0.0-beta.5" />
-    <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
+    <PackageReference Include="MvvmCross.Forms" Version="6.0.0-beta.5" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
-      <DependentUpon>*.xaml</DependentUpon>
+    <ProjectReference Include="..\..\Quirogapp.Core\Quirogapp.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MvvmCross.Forms">
+      <HintPath>C:\Users\santiago.quiroga\.nuget\packages\mvvmcross.forms\6.0.0-beta.5\lib\netstandard2.0\MvvmCross.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="FormsApp.xaml.cs">
+      <DependentUpon>FormsApp.xaml</DependentUpon>
     </Compile>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Pages\MainPage.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
   </ItemGroup>

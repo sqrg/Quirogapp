@@ -4,12 +4,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.Android", "Quirogapp\Quirogapp.Android\Quirogapp.Android.csproj", "{507E2813-1695-4447-B553-E7293058EE48}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D370D270-EB42-4E99-954C-18995F6705BC} = {D370D270-EB42-4E99-954C-18995F6705BC}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.iOS", "Quirogapp\Quirogapp.iOS\Quirogapp.iOS.csproj", "{264EE8B1-38B7-4F2B-A8AF-3D8AEA100F49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D370D270-EB42-4E99-954C-18995F6705BC} = {D370D270-EB42-4E99-954C-18995F6705BC}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.UWP", "Quirogapp\Quirogapp.UWP\Quirogapp.UWP.csproj", "{D46839BB-2216-41AE-B4D2-E49CC02C2AAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D370D270-EB42-4E99-954C-18995F6705BC} = {D370D270-EB42-4E99-954C-18995F6705BC}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.UI", "Quirogapp\Quirogapp\Quirogapp.UI.csproj", "{319E5DE3-EF6B-45FF-A32A-FF415972A712}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D370D270-EB42-4E99-954C-18995F6705BC} = {D370D270-EB42-4E99-954C-18995F6705BC}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.Core", "Quirogapp.Core\Quirogapp.Core.csproj", "{D370D270-EB42-4E99-954C-18995F6705BC}"
 EndProject
