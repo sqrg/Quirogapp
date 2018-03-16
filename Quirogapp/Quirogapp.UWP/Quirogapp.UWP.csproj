@@ -149,12 +149,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Quirogapp\Quirogapp.csproj">
-      <Project>{94CE9A4B-4DBE-48BF-984B-6E00A6C84234}</Project>
-      <Name>Quirogapp</Name>
+    <ProjectReference Include="..\Quirogapp\Quirogapp.UI.csproj">
+      <Project>{319E5DE3-EF6B-45FF-A32A-FF415972A712}</Project>
+      <Name>Quirogapp.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

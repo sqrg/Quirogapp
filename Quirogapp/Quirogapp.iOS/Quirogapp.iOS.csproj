@@ -123,9 +123,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Quirogapp\Quirogapp.csproj">
-      <Project>{94CE9A4B-4DBE-48BF-984B-6E00A6C84234}</Project>
-      <Name>Quirogapp</Name>
+    <ProjectReference Include="..\Quirogapp\Quirogapp.UI.csproj">
+      <Project>{319E5DE3-EF6B-45FF-A32A-FF415972A712}</Project>
+      <Name>Quirogapp.UI</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -79,14 +79,11 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\Quirogapp\Quirogapp.csproj">
-      <Project>{94CE9A4B-4DBE-48BF-984B-6E00A6C84234}</Project>
-      <Name>Quirogapp</Name>
+    <ProjectReference Include="..\Quirogapp\Quirogapp.UI.csproj">
+      <Project>{319E5DE3-EF6B-45FF-A32A-FF415972A712}</Project>
+      <Name>Quirogapp.UI</Name>
     </ProjectReference>
   </ItemGroup>
-
-
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
