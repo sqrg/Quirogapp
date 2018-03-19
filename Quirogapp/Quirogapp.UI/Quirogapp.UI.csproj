@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Quirogapp.Core\Quirogapp.Core.csproj" />
+    <ProjectReference Include="..\Quirogapp.Core\Quirogapp.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

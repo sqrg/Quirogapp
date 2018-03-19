@@ -18,12 +18,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.UWP", "Quirogapp\
 		{D370D270-EB42-4E99-954C-18995F6705BC} = {D370D270-EB42-4E99-954C-18995F6705BC}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.UI", "Quirogapp\Quirogapp\Quirogapp.UI.csproj", "{319E5DE3-EF6B-45FF-A32A-FF415972A712}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.UI", "Quirogapp\Quirogapp.UI\Quirogapp.UI.csproj", "{319E5DE3-EF6B-45FF-A32A-FF415972A712}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D370D270-EB42-4E99-954C-18995F6705BC} = {D370D270-EB42-4E99-954C-18995F6705BC}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.Core", "Quirogapp.Core\Quirogapp.Core.csproj", "{D370D270-EB42-4E99-954C-18995F6705BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quirogapp.Core", "Quirogapp\Quirogapp.Core\Quirogapp.Core.csproj", "{D370D270-EB42-4E99-954C-18995F6705BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
