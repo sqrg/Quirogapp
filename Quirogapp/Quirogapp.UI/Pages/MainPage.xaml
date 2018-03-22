@@ -11,6 +11,15 @@
             <StackLayout Margin="10">
                 <Image Source="MvvmCross" HorizontalOptions="Center" />
                 <Label Text="{Binding BindableText}" />
+                <Button x:Name="rotateButton" Text="Botoncito que gira" 
+                        BackgroundColor="#00a4ef" TextColor="Black" FontSize="20" 
+                        Clicked="Rotate_Clicked" />
+
+                <Button x:Name="fadeButton" Text="Botoncito que fadea" 
+                        BackgroundColor="#00a4ef" TextColor="Black" FontSize="20" 
+                        Clicked="Fade_Clicked" />
+                
+                <!--
                 <Button Text="Show Child" mvx:Bi.nd="Command ShowChildCommand"/>
                 <Button Text="Show Modal" mvx:Bi.nd="Command ShowModalCommand"/>
                 <Button Text="Show Modal Navigation" mvx:Bi.nd="Command ShowModalNavCommand"/>
@@ -25,6 +34,7 @@
                 <Button Text="Show ListView" mvx:Bi.nd="Command ShowListViewCommand"/>
                 <Button Text="Show Bindings view" mvx:Bi.nd="Command ShowBindingsViewCommand"/>
                 <Button Text="Show CodeBehind view" mvx:Bi.nd="Command ShowCodeBehindViewCommand"/>
+                -->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

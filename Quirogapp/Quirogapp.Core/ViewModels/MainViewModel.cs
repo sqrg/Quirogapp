@@ -4,7 +4,7 @@ namespace Quirogapp.Core.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {
-        private string _bindableText = "I'm bound!";
+        private string _bindableText = "Texto bindeado";
         public string BindableText
         {
             get
